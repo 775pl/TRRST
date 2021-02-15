@@ -12,7 +12,8 @@ public class Main extends JavaPlugin implements Listener{
 	public void onEnable() {
 		System.out.println("Le plugin s'est bien allumé");
 		getCommand("inventory").setExecutor(new Inventaire());
-		getCommand("alerte").setExecutor(new Alerte()); //puis la arte
+		getCommand("alerte").setExecutor(new Alerte());
+		getServer().getPluginManager().registerEvents(new PlayerSpawn(), this);
 	}
 	
 	

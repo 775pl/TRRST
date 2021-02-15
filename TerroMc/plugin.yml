@@ -1,6 +1,7 @@
 name: TerroMc
 version: 1.0
 author: 775pl
+api-version: 1.16
 main: fr.selma.terromc.Main
 commands:
   inventory:
