@@ -2,3 +2,6 @@ name: TerroMc
 version: 1.0
 author: 775pl
 main: fr.selma.terromc.Main
+commands:
+  inventory:
+    description: Inventaire partage
