@@ -10,12 +10,12 @@ import org.bukkit.inventory.Inventory;
 
 public class Inventaire implements CommandExecutor {
 	
-	Inventory inv = Bukkit.createInventory(null, InventoryType.CHEST, "§8YInventaire");
+	Inventory inv = Bukkit.createInventory(null, InventoryType.CHEST, "§8Inventaire");
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String msg, String[] args) {
 		Player player = (Player)sender;
-
+		
 			if(args.length == 0) {
 				if(inv != null ) {
 

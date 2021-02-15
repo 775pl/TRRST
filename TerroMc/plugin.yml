@@ -5,3 +5,5 @@ main: fr.selma.terromc.Main
 commands:
   inventory:
     description: Inventaire partage
+  alerte:
+    description: Tape
